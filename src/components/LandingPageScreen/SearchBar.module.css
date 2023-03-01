@@ -1,0 +1,46 @@
+
+.searchBarContainer {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 14px rgba(67, 83, 138, 0.06);
+    border-radius: 30px;
+    padding: 20px;
+    gap: 40px;
+    align-items: center;
+}
+
+.itemTitle {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #304659;
+}
+
+.itemMessage {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #696F8C;
+
+}
+
+.downArrow {
+    color: rgba(60, 208, 200, 1);
+}
+
+.searchButton {
+    all: unset;
+    background: #3A6AD5;
+    border-radius: 16px;
+    padding: 25px 40px;
+    border-style: none;
+    color: white;
+    /*font-weight: 600;*/
+    font-size: 18px;
+}

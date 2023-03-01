@@ -1,0 +1,23 @@
+
+.container {
+    height: 100vh;
+    background-image: url("../../assets/LandingPage/background.png");
+    background-size: cover;
+}
+
+.bodyContainer {
+    margin-left: 80px;
+}
+
+.title {
+    font-size: 64px;
+    color: white;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.message {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

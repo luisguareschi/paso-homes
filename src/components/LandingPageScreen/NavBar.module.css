@@ -1,0 +1,51 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 47px 80px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    color: white;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.rightSideContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.loginButton {
+    all: unset;
+    border-style: solid;
+    border-radius: 26px;
+    border-color: white;
+    border-width: 2px;
+    padding: 15px;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.productsButton {
+    all: unset;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+    font-size: 27px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.arrow {
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}

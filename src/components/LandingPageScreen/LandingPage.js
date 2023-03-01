@@ -1,9 +1,11 @@
+import SearchHomePage from "./SearchHomePage";
+import NavBar from "./NavBar";
 
 
 const LandingPage = (props) => {
     return (
         <div>
-            Paso homes!!
+            <SearchHomePage />
         </div>
     )
 }

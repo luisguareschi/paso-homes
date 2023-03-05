@@ -5,7 +5,7 @@ const InfoBox = (props) => {
         <div className={styles.InfoBoxContainer}>
             <div className={styles.squareInfo}>
                 <div className={styles.imageInfoContainer}>
-                    <img  alt={'n/a'} src={require("../../assets/LandingPage/BigLogo.png")} className={styles.logo}/>
+                    <img alt={'n/a'} src={require("../../../assets/LandingPage/BigLogo.png")} className={styles.logo}/>
                 </div>
                 <div className={styles.textInfoContainer}>
                     <div className={styles.title}>Who are we?</div>

@@ -2,10 +2,10 @@ import styles from "./TrendingCitiesPage.module.css"
 import CityCard from "./CityCard";
 
 const cityCards = [
-    {name: "Los Angeles", img: require("../../assets/LandingPage/LA.png"), propertyQty: 20},
-    {name: "Miami", img: require("../../assets/LandingPage/MIA.png"), propertyQty: 55},
-    {name: "San Francisco", img: require("../../assets/LandingPage/SF.png"), propertyQty: 123},
-    {name: "New York", img: require("../../assets/LandingPage/NY.png"), propertyQty: 49}
+    {name: "Los Angeles", img: require("../../../assets/LandingPage/LA.png"), propertyQty: 20},
+    {name: "Miami", img: require("../../../assets/LandingPage/MIA.png"), propertyQty: 55},
+    {name: "San Francisco", img: require("../../../assets/LandingPage/SF.png"), propertyQty: 123},
+    {name: "New York", img: require("../../../assets/LandingPage/NY.png"), propertyQty: 49}
 ]
 
 const TrendingCitiesPage = (props) => {

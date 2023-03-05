@@ -1,8 +1,8 @@
 import SearchHomePage from "./SearchHomePage/SearchHomePage";
-import TrendingCitiesPage from "./TrendingCitiesPage";
-import WhatSetsUsApartPage from "./WhatSetsUsApartPage";
+import TrendingCitiesPage from "./TrendingCitiesPage/TrendingCitiesPage";
+import WhatSetsUsApartPage from "./WhatSetsUsApartPage/WhatSetsUsApartPage";
 import styles from "./LandingPage.module.css"
-import InfoBox from "./InfoBox";
+import InfoBox from "./InfoBoxPage/InfoBox";
 
 
 const LandingPage = (props) => {

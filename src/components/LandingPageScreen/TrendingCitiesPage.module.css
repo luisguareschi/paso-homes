@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-left: 80px;
+    padding-top: 80px;
+    scroll-snap-align: center;
+}
+
+.titleText {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #304659;
+    margin-bottom: 10px;
+}
+
+.subtitleText {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #696F8C;
+
+}
+
+.cityCardsOuterContainer {
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: start;
+    align-items: center;
+}
+
+.cityCardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 40%;
+    height: 100%;
+    border-radius: 20px;
+    /*background-color: #3A6AD5;*/
+    margin-bottom: 3%;
+}
+
+.cityInfoTextContainer {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(75px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4%;
+    padding-bottom: 2%;
+    flex: 1;
+    height: 30%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.cityName {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.cityNumberOfProperties {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}

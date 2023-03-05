@@ -1,8 +1,18 @@
 
 .container {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     background-image: url("../../assets/LandingPage/background.png");
     background-size: cover;
+    scroll-snap-align: center;
+}
+
+.outerBodyContainer {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: row;
 }
 
 .bodyContainer {

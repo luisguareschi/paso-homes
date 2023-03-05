@@ -1,0 +1,17 @@
+
+.container {
+    display: flex;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+.title {
+    margin-top: 3%;
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 48px;
+    text-align: center;
+    color: #304659;
+}

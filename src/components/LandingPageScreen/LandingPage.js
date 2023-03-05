@@ -1,5 +1,4 @@
-import SearchHomePage from "./SearchHomePage";
-import NavBar from "./NavBar";
+import SearchHomePage from "./SearchHomePage/SearchHomePage";
 import TrendingCitiesPage from "./TrendingCitiesPage";
 import WhatSetsUsApartPage from "./WhatSetsUsApartPage";
 import styles from "./LandingPage.module.css"

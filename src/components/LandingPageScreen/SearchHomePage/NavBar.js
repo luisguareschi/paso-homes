@@ -1,4 +1,4 @@
-import styles from  "./NavBar.module.css"
+import styles from "./NavBar.module.css"
 import {AiOutlineDown} from "react-icons/ai";
 import {useState} from "react";
 import {Menu, MenuItem} from "@mui/material";
@@ -44,7 +44,7 @@ const NavBar = (props) => {
     return (
         <div className={styles.container}>
             <div className={styles.rightSideContainer}>
-                <img  alt={'n/a'} src={require("../../assets/LandingPage/Logo.png")} className={styles.logo}/>
+                <img alt={'n/a'} src={require("../../../assets/LandingPage/Logo.png")} className={styles.logo}/>
                 <h1 className={styles.title}>Paso Homes</h1>
             </div>
             <div className={styles.rightSideContainer}>

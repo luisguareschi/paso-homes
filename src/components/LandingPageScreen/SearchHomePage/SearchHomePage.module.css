@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-image: url("../../assets/LandingPage/background.png");
+    background-image: url("../../../assets/LandingPage/background.png");
     background-size: cover;
     scroll-snap-align: center;
 }

@@ -20,7 +20,6 @@ const dataCards = [
 ]
 
 const WhatSetsUsApartPage = (props) => {
-    // TODO terminar este componente
     return (
         <div className={styles.container}>
             <div className={styles.title}>What sets us Apart?</div>

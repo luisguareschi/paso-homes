@@ -3,6 +3,8 @@ import TrendingCitiesPage from "./TrendingCitiesPage/TrendingCitiesPage";
 import WhatSetsUsApartPage from "./WhatSetsUsApartPage/WhatSetsUsApartPage";
 import styles from "./LandingPage.module.css"
 import InfoBox from "./InfoBoxPage/InfoBox";
+import SingUpCard from "./SingUpCard/SingUpCard";
+import Footer from "./Footer/Footer";
 
 
 const LandingPage = (props) => {
@@ -12,6 +14,8 @@ const LandingPage = (props) => {
             <TrendingCitiesPage />
             <WhatSetsUsApartPage />
             <InfoBox />
+            <SingUpCard />
+            <Footer />
         </div>
     )
 }

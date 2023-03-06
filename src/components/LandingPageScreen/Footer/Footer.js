@@ -22,9 +22,9 @@ const Footer = () => {
             </div>
             <div className={styles.rightContainer}>
                 <div className={styles.linksContainer}>
-                    <a>About us</a>
-                    <a>Privacy Policy</a>
-                    <a>Contact us</a>
+                    <div>About us</div>
+                    <div>Privacy Policy</div>
+                    <div>Contact us</div>
                 </div>
                 <div className={styles.inputContainer}>
                     <input placeholder={'Enter your email address'}/>

@@ -1,0 +1,116 @@
+.testimonialContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-left: 80px;
+    padding-top: 80px;
+    scroll-snap-align: start;
+
+}
+
+.titleText {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #304659;
+    margin-bottom: 35px;
+}
+
+.squareContainer{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    padding: 20px;
+    gap: 40px;
+}
+
+.testimonialImage1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    width: 37%;
+    height: 60%;
+    border-radius: 20px;
+    color: white;
+    background-image: url("../../../assets/LandingPage/Testimonial1.png");
+    background-size: cover;
+}
+
+.testimonialImage2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    width: 20%;
+    height: 60%;
+    border-radius: 20px;
+    color: white;
+    background-image: url("../../../assets/LandingPage/Testimonial2.png");
+    background-size: cover;
+}
+
+.testimonialImage3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    width: 32%;
+    height: 60%;
+    border-radius: 20px;
+    color: white;
+    background-image: url("../../../assets/LandingPage/Testimonial3.png");
+    background-size: cover;
+}
+
+.testimonial1 {
+    display: flex;
+    flex-direction:column;
+    justify-items: center;
+    justify-content: center;
+    width: 325px;
+    height: 169px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(80px);
+}
+
+.testimonial2 {
+    display: flex;
+    flex-direction:column;
+    justify-items: center;
+    justify-content: center;
+    width: 237px;
+    height: 169px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(80px);
+}
+
+.testimonial3 {
+    display: flex;
+    flex-direction:column;
+    justify-items: center;
+    justify-content: center;
+    width: 237px;
+    height: 169px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(80px);
+}
+
+.textStyle{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #304659;
+}

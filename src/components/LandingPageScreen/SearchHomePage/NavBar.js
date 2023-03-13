@@ -31,7 +31,7 @@ const ProductsDropDown = (props) => {
                 open={open}
                 onClose={handleClose}
             >
-                <MenuItem onClick={handleClose}>Become a Host</MenuItem>
+                <MenuItem onClick={handleClose}>I am a Host</MenuItem>
                 <MenuItem onClick={handleClose}>Rent</MenuItem>
                 <MenuItem onClick={handleClose}>Invest</MenuItem>
             </Menu>

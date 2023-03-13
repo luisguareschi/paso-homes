@@ -22,14 +22,16 @@ const SingUpCard = () => {
                     It's time to rent and manage your rentals easily.<br />
                     Join the Paso community today.
                 </div>
-                <div className={styles.featuresContainer}>
-                    <CardFeature text={'Affordable'}/>
-                    <CardFeature text={'Convenient'}/>
-                    <CardFeature text={'Flexible'}/>
+                <div className={styles.bottomContainer}>
+                    <div className={styles.featuresContainer}>
+                        <CardFeature text={'Affordable'}/>
+                        <CardFeature text={'Convenient'}/>
+                        <CardFeature text={'Flexible'}/>
+                    </div>
+                    <button className={styles.button} onClick={handleClick}>
+                        Sign Up Now
+                    </button>
                 </div>
-                <button className={styles.button} onClick={handleClick}>
-                    Sign Up Now
-                </button>
             </div>
         </div>
     )

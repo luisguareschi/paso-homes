@@ -1,10 +1,9 @@
 .testimonialContainer {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     padding-left: 80px;
-    padding-top: 80px;
     scroll-snap-align: start;
+    margin-bottom: 80px;
 
 }
 
@@ -14,7 +13,7 @@
     font-size: 40px;
     line-height: 48px;
     color: #304659;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 .squareContainer{
@@ -32,7 +31,7 @@
     position: relative;
     border-radius: 20px;
     width: 37%;
-    height: 60%;
+    height: 400px;
     color: white;
     background-image: url("../../../assets/LandingPage/Testimonial1.png");
     background-size: cover;
@@ -46,7 +45,7 @@
     position: relative;
     border-radius: 20px;
     width: 20%;
-    height: 60%;
+    height: 400px;
     color: white;
     background-image: url("../../../assets/LandingPage/Testimonial2.png");
     background-size: cover;
@@ -60,7 +59,7 @@
     position: relative;
     border-radius: 20px;
     width: 32%;
-    height: 60%;
+    height: 400px;
     color: white;
     background-image: url("../../../assets/LandingPage/Testimonial3.png");
     background-size: cover;

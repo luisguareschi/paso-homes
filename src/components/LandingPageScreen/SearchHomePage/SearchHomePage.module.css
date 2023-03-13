@@ -3,9 +3,10 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+    min-height: 680px;
+    min-width: 1000px;
     background-image: url("../../../assets/LandingPage/background.png");
     background-size: cover;
-    scroll-snap-align: start;
 }
 
 .outerBodyContainer {
@@ -30,4 +31,17 @@
     font-weight: 500;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.arrowContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+}
+
+.downArrow {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
 }

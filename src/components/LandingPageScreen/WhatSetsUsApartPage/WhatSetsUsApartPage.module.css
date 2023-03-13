@@ -2,36 +2,40 @@
 .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    scroll-snap-align: start;
+    /*height: 70vh;*/
+    padding: 80px;
+    padding-top: 0;
 }
 
 .title {
-    margin-top: 3%;
+    margin-top: 20px;
     width: 100%;
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 48px;
+    font-size: 50px;
+    /*line-height: 48px;*/
     text-align: center;
     color: #304659;
 }
 
 .infoContainer {
-    margin-top: 8%;
+    margin-top: 60px;
     display: flex;
-    flex: 1;
     flex-direction: row;
     justify-content: center;
-    gap: 5%;
+    flex-wrap: wrap;
+    gap: 40px;
     width: 100%;
 }
 
 .dataCardContainer {
     display: flex;
+    /*flex: 1;*/
     flex-direction: column;
     width: 20%;
+    min-width: 200px;
     height: 50%;
+    min-height: 300px;
 }
 
 .dataCardTitle {
@@ -41,6 +45,7 @@
     line-height: 33px;
     color: #304659;
     margin-bottom: 29px;
+    text-align: center;
 }
 
 .dataCardText {
@@ -49,12 +54,12 @@
     font-size: 20px;
     line-height: 33px;
     color: #696F8C;
-    text-align: justify;
+    text-align: center;
 }
 
 .cardImage {
-    height: 30%;
-    width: auto;
+    width: 100px;
+    height: 100px;
     justify-self: center;
     align-self: center;
     margin-bottom: 40px;
